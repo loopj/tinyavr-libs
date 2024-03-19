@@ -11,3 +11,7 @@ Quick and dirty bit-bang addressable LED library for WS2812B (and clones).
 ## Button
 
 Quick and dirty button library with debounce and long-press support.
+
+## RTC
+
+Simple milliseconds counter, implmented using RTC timer.

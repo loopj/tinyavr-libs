@@ -5,6 +5,8 @@
  * - Supports 1 wire addressable LEDs with WS2812B-ish protocols
  * - Supports 3 or 4 byte color data (eg. RGB/GRB or RGBW)
  * - Supports a single chain of LEDs
+ * 
+ * Make sure your clock speed is 8MHz or higher for accurate timing.
  */
 
 #pragma once
