@@ -27,7 +27,7 @@ void button_update(struct button *btn, uint32_t millis)
         btn->button_state = BUTTON_RELEASED;
     }
 
-    // If the button is pressed, increment the hold time
+    // If the button is down, check for hold time thresholds
     if (gpio_state == false) {
         // Raise event flags when hold time thresholds are reached
         if (millis - btn->last_millis >= BTN_PRESS_MS && btn->button_state < BUTTON_PRESSED) {

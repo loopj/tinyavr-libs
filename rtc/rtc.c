@@ -1,5 +1,6 @@
 #include "rtc.h"
 
+#include <avr/interrupt.h>
 #include <avr/io.h>
 
 static volatile uint32_t millis = 0;
