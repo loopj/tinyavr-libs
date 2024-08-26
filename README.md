@@ -18,6 +18,10 @@ Basic I2C target device library, for presenting on the I2C as a target device an
 
 ## LED
 
+LED library for setting effects on non-addressable LEDs, such as blinking, fading, etc.
+
+## ALED
+
 Quick and dirty bit-bang addressable LED library for WS2812B (and clones).
 
 ## RTC
